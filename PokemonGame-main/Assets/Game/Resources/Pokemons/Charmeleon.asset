@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be7dec461ce11e4787de6cf7b405d8f, type: 3}
+  m_Name: Charmeleon
+  m_EditorClassIdentifier: 
+  name: Charmeleon
+  decsription: From the time it is born, a flame burns at the tip of its tail. Its
+    life would end if the flame were to go out.
+  frontSprite: {fileID: 21300000, guid: 0d55f1b4ad5c48a4ab3a8e1ce29d338b, type: 3}
+  backSprite: {fileID: 21300000, guid: 8107098927e8bf44c8fd64435cb6e790, type: 3}
+  type1: 1
+  type2: 2
+  maxHp: 58
+  attack: 64
+  defense: 58
+  spAttack: 80
+  spDefense: 65
+  speed: 80
+  expYield: 142
+  growthRate: 3
+  catchRate: 45
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: 00cedff879b1bcc4698b0923301602ca, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: fbd0980856dd5f745908604990195519, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: d9e6f9358b3fc9a40951a232ee12eac5, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 0b10ff92795d9d347a8c9ee7af333ebe, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 3e9d87bc9eeeb0044a36aa810542e4c4, type: 2}
+    level: 14
+  - moveBase: {fileID: 11400000, guid: 02b3f2b4e5e55a648b8f42b14af5575c, type: 2}
+    level: 18
+  - moveBase: {fileID: 11400000, guid: 5e69e93ed9f649b41926daafee0f3fda, type: 2}
+    level: 26
+  - moveBase: {fileID: 11400000, guid: 321ec3d7766f23540a8fab0852355ff3, type: 2}
+    level: 30
+  - moveBase: {fileID: 11400000, guid: b70880fc7fb567643bc647b07b7aeca0, type: 2}
+    level: 40
+  learnableByItems:
+  - {fileID: 11400000, guid: f4048e6c64a9d1f468ed03a58e5fad5e, type: 2}
+  - {fileID: 11400000, guid: 5e69e93ed9f649b41926daafee0f3fda, type: 2}
+  - {fileID: 11400000, guid: 2b41860f606a9e544a012aaa52485d0a, type: 2}
+  evolutions:
+  - evolvesInto: {fileID: 11400000}
+    requiredLevel: 16
+    requiredItem: {fileID: 0}
